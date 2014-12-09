@@ -1,0 +1,4 @@
+What happens when you initialize a repository? Why do you need to do it?
+A metadata file is created with git information, but with no commits. It is needed to turn
+the directory in a repository
+
