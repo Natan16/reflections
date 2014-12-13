@@ -2,3 +2,31 @@ What happens when you initialize a repository? Why do you need to do it?
 A metadata file is created with git information, but with no commits. It is needed to turn
 the directory in a repository
 
+How is the staging area different from the working directory and the repository? 
+What value do you think it offers?
+
+staging area stores the files to be commited and that is good because it allows you commit 
+only a part of your files rather than all of them at once, which is in sinthony with the
+one commit per logical change rule. The repository represents all commits ever made and the
+working directory the current state of each file on a repository.
+
+How can you use the staging area to make sure you have one commit per logical change?
+Before a commit, I put on the staging area only the files responsible for that one logical
+change
+
+What are some situations when branches would be helpful in keeping your history organized?
+ How would branches help?
+When you want to create alternative versions of whatever you're developing 
+You can create a branch with this alternative version without affecting the original version
+
+How do the diagrams help you visualize the branch structure?
+It shows me witch commits are reachable for each branch and if there are any unreachable
+
+What is the result of merging two branches together? Why do we represent it in the 
+diagram the way we do?
+
+the branches merged turn into one, and the branch commited to now has 2 parents.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Manual merges may be time-consuming, but are more accurate. Automatic merging may generate
+conflicts that have to be solved manually anyway.
